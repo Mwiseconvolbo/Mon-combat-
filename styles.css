@@ -1,0 +1,140 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #4CAF50;
+}
+
+section {
+    padding: 1em;
+    background-color: white;
+    margin: 1em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form select, form textarea, form button {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+/* Styles spécifiques pour chaque page */
+
+/* Page d'accueil */
+.home-header {
+    background-color: #2196F3;
+}
+
+.home-nav a {
+    
+    color: #2196F3;
+}
+
+/* Page d'inscription */
+.inscription-header {
+    background-color: #FF9800;
+}
+
+.inscription-nav a {
+    color: #FF9800;
+}
+
+/* Espace Professeur */
+.professeur-header {
+    background-color: #9C27B0;
+}
+
+.professeur-nav a {
+    color: #9C27B0;
+}
+
+/* Espace Étudiant */
+.etudiant-header {
+    background-color: #3F51B5;
+}
+
+.etudiant-nav a {
+    color: #3F51B5;
+}
+
+/* Page de forum */
+.forum-header {
+    background-color: #009688;
+}
+
+.forum-nav a {
+    color: #009688;
+}
+
+/* Page de soumission des devoirs */
+.soumission-header {
+    background-color: #E91E63;
+}
+
+.soumission-nav a {
+    color: #E91E63;
+}
+
+/* Page de téléchargement des devoirs */
+.telechargement-header {
+    background-color: #607D8B;
+}
+
+.telechargement-nav a {
+    color: #607D8B;
+}
+
+/* Page de dépôt de fichiers supplémentaires */
+.depot-header {
+    background-color: #795548;
+}
+
+.depot-nav a {
+    color: #795548;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dépôt de fichiers supplémentaires</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Dépôt de fichiers supplémentaires</h1>
+    </header>
+    <section>
+        <h2>Déposer un fichier</h2>
+        <form action="déposer-fichiers.php" method="post" enctype="multipart/form-data">
+            <label for="description">Description du fichier :</label>
+            <input type="text" id="description" name="description" required>
+            <label for="fichier">Fichier :</label>
+            <input type="file" id="fichier" name="fichier" required>
+            <button type="submit">Déposer</button>
+        </form>
+    </section>
+</body>
+</html>

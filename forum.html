@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forum</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Forum de discussion</h1>
+    </header>
+    <section>
+        <h2>Discussions</h2>
+        <!-- Liste des discussions -->
+        <ul>
+            <li><a href="discussion1.html">Discussion 1</a></li>
+            <li><a href="discussion2.html">Discussion 2</a></li>
+            <!-- Plus de discussions -->
+        </ul>
+        <form action="nouvelle-discussion.html" method="post">
+            <label for="titre">Titre de la discussion :</label>
+            <input type="text" id="titre" name="titre" required>
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Créer une discussion</button>
+        </form>
+    </section>
+</body>
+</html>

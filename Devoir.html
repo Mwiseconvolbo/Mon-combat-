@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soumission des devoirs</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Soumission des devoirs</h1>
+    </header>
+    <section>
+        <h2>Déposer un devoir</h2>
+        <form action="soumettre-devoirs.php" method="post" enctype="multipart/form-data">
+            <label for="cours">Cours :</label>
+            <select id="cours" name="cours" required>
+                <!-- Liste des cours -->
+                <option value="cours1">Cours 1</option>
+                <option value="cours2">Cours 2</option>
+                <!-- Plus de cours -->
+            </select>
+            <label for="titre">Titre du devoir :</label>
+            <input type="text" id="titre" name="titre" required>
+            <label for="fichier">Fichier :</label>
+            <input type="file" id="fichier" name="fichier" required>
+            <button type="submit">Soumettre</button>
+        </form>
+    </section>
+</body>
+</html>
