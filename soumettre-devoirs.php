@@ -30,4 +30,4 @@ if (move_uploaded_file($_FILES['fichier']['tmp_name'], $target_file)) {
 }
 
 $conn->close();
-?>
+
